@@ -28,3 +28,12 @@ The graph is built as follows:
 
 ![alt text](https://github.com/jairopinilla/twittergraph/blob/master/graph%20twitter.jpeg?raw=true)
 
+The data is saved in SQL Server in this example, the most important table is GraphNodeEdge that saves the information about the edges and nodes.
+
+The process will stop when the degree reaches the 0 value, in other words as higher you define in the GraphRoot table the LevelToExplore, more time the process will take.
+
+The last part is to define the id of the graph to construct in the "main.py" file. 
+
+```python
+NumberGraph=2
+```
