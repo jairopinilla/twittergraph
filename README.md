@@ -24,3 +24,7 @@ go
 insert into GraphRoot(idGraph,CodeNode,LevelToExplore)
 values (1,'realDonaldTrump',2)
 ```
+The graph is built as follows:
+
+![alt text](https://github.com/jairopinilla/twittergraph/blob/master/graph%20twitter.jpeg?raw=true)
+
